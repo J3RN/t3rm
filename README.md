@@ -8,3 +8,8 @@
 ```
 
 A simple terminal to tell you about me
+
+### Todo
+- Page overflow looks awful
+- Add more sections
+- Replace "edu" with a real UNIX command (or program)
