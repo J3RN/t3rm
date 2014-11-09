@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Ubuntu Mono',
+  src: url('fonts/UbuntuMono-R.ttf')
+}
+
+body {
+  background: #222;
+  color: #EEE;
+
+  font-family: "Ubuntu Mono";
+
+  height: 100vh;
+}
+
+.terminal {
+  height: 100%;
+}
+
+.terminal .cursor.blink {
+  background: #DDD;
+}
+
+.terminal .clipboard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  display: none;
+}
+
+a {
+  color: #DDD;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
