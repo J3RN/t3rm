@@ -12,7 +12,7 @@ jQuery(function ($, undefined) {
       } else if (command.match(/edu/)) {
         message = "I am pursuing a degree in Computer Science and Engineering at the Ohio State University. My coursework includes foundations of computer science, software development, systems, and electrical and computer engineering, as well as physics, calculus, and general engineering classes.";
       } else {
-        message = "t3rm: command not found: " + command;
+        message = "T3RM: command not found: " + command;
       }
 
       term.echo(message, {raw: true});
@@ -21,6 +21,6 @@ jQuery(function ($, undefined) {
     }
   }, {
     greetings: "       _______ ____  _   __\n      / /__  // __ \\/ | / /\n __  / / /_ </ /_/ /  |/ / \n/ /_/ /___/ / _, _/ /|  /  \n\\____//____/_/ |_/_/ |_/   \n\nWelcome to T3RM\n\nNew here? Try \"help\"",
-      name: "j3rn_term",
-      prompt: "t3rm> "});
+      name: "j3rn_t3rm",
+      prompt: "T3RM> "});
 });
